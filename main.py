@@ -41,6 +41,12 @@ def exercice8():
     chiffre2 = int(input("ton deuxieme chiffre: "))
     print("le resultat de la multiplacation est de",chiffre1 / chiffre2,)
 
+def exercice9():
+    print("Exercie 9 : donner un chiffre et obtenir le carre")
+    chiffre = int(input("ton chiffre: "))
+    print("le carre de ton chiffre est ",chiffre * chiffre,)
+    
+
 
 def main():
     while True:
