@@ -49,7 +49,13 @@ def exercice9():
 def exercice10():
     print("Exercie 10 : donner un chiffre et obtenir le double")
     chiffre = int(input("ton chiffre: "))
-    print("le carre de ton chiffre est ",chiffre * 2,)
+    print("le double de ton chiffre est ",chiffre * 2,)
+
+def exercice11():
+    print("Exercie 11 : donner un chiffre et obtenir la moitie")
+    chiffre = int(input("ton chiffre: "))
+    print("la moitie de ton chiffre est ",chiffre * 0.5,)
+    
 
     
 
