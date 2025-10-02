@@ -29,7 +29,13 @@ def exercice6():
     chiffre2 = int(input("ton deuxieme chiffre: "))
     print("le resultat de la soustraction est de",chiffre1 - chiffre2,)
     
-    
+def exercice7():
+    print("Exercie 7 : donner deux chiffres et les multiplier")
+    chiffre1 = int(input("ton premier chiffre: "))
+    chiffre2 = int(input("ton deuxieme chiffre: "))
+    print("le resultat de la multiplacation est de",chiffre1 * chiffre2,)
+
+
 def main():
     while True:
         print("\n=== Menu des exercices ===")
