@@ -22,8 +22,14 @@ def exercice5():
     chiffre1 = int(input("ton premier chiffre: "))
     chiffre2 = int(input("ton deuxieme chiffre: "))
     print("la sommme des chiffres est de",chiffre1 + chiffre2,)
-    
 
+def exercice6():
+    print("Exercie 6 : donner deux chiffres et les soustraire ")
+    chiffre1 = int(input("ton premier chiffre: "))
+    chiffre2 = int(input("ton deuxieme chiffre: "))
+    print("le resultat de la soustraction est de",chiffre1 - chiffre2,)
+    
+    
 def main():
     while True:
         print("\n=== Menu des exercices ===")
