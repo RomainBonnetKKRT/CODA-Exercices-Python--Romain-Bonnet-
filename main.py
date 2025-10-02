@@ -39,7 +39,10 @@ def exercice8():
     print("Exercie 8 : donner deux chiffres et les diviser")
     chiffre1 = int(input("ton premier chiffre: "))
     chiffre2 = int(input("ton deuxieme chiffre: "))
-    print("le resultat de la division est de",chiffre1 / chiffre2,)
+    if chiffre2 ==0:
+        print("On ne peut pas diviser par 0")
+    else:
+        print("le resultat de la division est de",chiffre1 / chiffre2,)
 
 def exercice9():
     print("Exercie 9 : donner un chiffre et obtenir le carre")
@@ -55,6 +58,15 @@ def exercice11():
     print("Exercie 11 : donner un chiffre et obtenir la moitie")
     chiffre = int(input("ton chiffre: "))
     print("la moitie de ton chiffre est ",chiffre * 0.5,)
+
+def exercice12():
+        print("Exercie 12 : afficher 5 fois le meme message")
+        for i in range(5):
+            print("ez la commande")
+            
+        
+
+    
     
 
     
