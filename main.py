@@ -73,11 +73,10 @@ def exercice14():
         print(f"2 × {i} = {2 * i}")
 
 def exercice15():
-    
-        
-
-    
-    
+       print("Exercie 15 : avoir le périmetre d'un carre")
+       longueur_coté = int(input("longueur: "))
+       print("le périmetre du carré c'est ",longueur_coté * 4,)
+       
 
     
 
