@@ -63,7 +63,10 @@ def exercice12():
         print("Exercie 12 : afficher 5 fois le meme message")
         for i in range(5):
             print("ez la commande")
-            
+
+def exercice13():
+    for i in range(1,6):
+        print(i)
         
 
     
