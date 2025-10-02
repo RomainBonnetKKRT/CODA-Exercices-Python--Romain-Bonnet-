@@ -35,6 +35,12 @@ def exercice7():
     chiffre2 = int(input("ton deuxieme chiffre: "))
     print("le resultat de la multiplacation est de",chiffre1 * chiffre2,)
 
+def exercice8():
+    print("Exercie 8 : donner deux chiffres et les diviser")
+    chiffre1 = int(input("ton premier chiffre: "))
+    chiffre2 = int(input("ton deuxieme chiffre: "))
+    print("le resultat de la multiplacation est de",chiffre1 / chiffre2,)
+
 
 def main():
     while True:
