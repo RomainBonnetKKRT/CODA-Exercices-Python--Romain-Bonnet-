@@ -67,6 +67,13 @@ def exercice12():
 def exercice13():
     for i in range(1,6):
         print(i)
+
+def exercice14():
+    for i in range(1, 6):
+        print(f"2 × {i} = {2 * i}")
+
+def exercice15():
+    
         
 
     
