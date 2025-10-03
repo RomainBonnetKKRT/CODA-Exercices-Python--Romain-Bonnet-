@@ -97,6 +97,13 @@ def exercice19():
     Prix = int(input("PrixHT: "))
     print("Le TTC est de",Prix * 1.2,)
 
+def exercice20():
+    print("Exercice 20 : Nom/Age")
+    nom =(input("votre nom: "))
+    age =(input("votre age: "))
+    print(nom," a ",age,"ans",)
+    
+
 
 
         
