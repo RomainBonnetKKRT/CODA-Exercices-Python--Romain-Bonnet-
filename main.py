@@ -160,6 +160,19 @@ def exercice27():
     elif 12 <= âge <= 17:
         print("Adolescent")
 
+def exercice28():
+    temperature=int(input("Inserez la température de l'eau "))
+    if temperature<0:
+        print("l'eau est solide")
+    elif temperature>100:
+        print("l'eau est gazeuse")
+    elif 0 <= temperature <= 100:
+        print("l'eau est liquide")
+
+
+
+
+
 
 
 
