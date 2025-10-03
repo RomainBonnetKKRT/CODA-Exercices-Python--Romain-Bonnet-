@@ -197,6 +197,10 @@ def exercice32():
         somme += i
     print(f"La somme de 1 à {n} est {somme}")
 
+def exercice33():
+    nombre=int(3)
+    for i in range(1, 11):
+        print(f"{i} X 3", nombre*i)
 
 
 
