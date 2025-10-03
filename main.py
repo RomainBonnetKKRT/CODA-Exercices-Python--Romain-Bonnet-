@@ -74,9 +74,15 @@ def exercice14():
 
 def exercice15():
        print("Exercie 15 : avoir le périmetre d'un carre")
-       longueur_coté = int(input("longueur: "))
+       longueur_coté = int(input("longueur du coté: "))
        print("le périmetre du carré c'est ",longueur_coté * 4,)
-       
+
+def exercice16():
+    print("Exercice 16 : avoir l'air d'un carré")
+    longueur_coté = int(input("longueur du coté: "))
+    print("l'air du carré est ",longueur_coté * longueur_coté,)
+
+        
 
     
 
