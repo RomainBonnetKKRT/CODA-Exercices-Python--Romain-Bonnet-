@@ -190,6 +190,13 @@ def exercice31():
     for n in range(n, -1, -1):
         print(n)
 
+def exercice32():
+    n=int(input("Entrez un nombre N : "))
+    somme = 0
+    for i in range(1, n + 1):
+        somme += i
+    print(f"La somme de 1 à {n} est {somme}")
+
 
 
 
