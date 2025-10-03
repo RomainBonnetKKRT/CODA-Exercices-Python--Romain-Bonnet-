@@ -118,6 +118,13 @@ def exercice22():
         print("majeur")
     else:
         print("mineur")
+
+def exercice23():
+    nombre =int(input("entrer la note "))
+    if nombre >= 10 :
+        print("validé")
+    else:
+        print("non validé")
     
 
 
