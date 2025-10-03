@@ -169,6 +169,30 @@ def exercice28():
     elif 0 <= temperature <= 100:
         print("l'eau est liquide")
 
+def exercice29():
+    note=int(input("Entrez votre note"))
+    if note<10.99:
+        print("Recalé")
+    elif note<=13.99:
+        print("Passable")
+    elif note<=16.99:
+        print("Bien")
+    elif note<=20:
+        print("Très bien")
+
+def exercice30():
+    n=int(input("Inserez votre nombre "))
+    for n in range(1, n):
+        print(n)
+
+def exercice31():
+    n=int(input("Inserez votre nombre "))
+    for n in range(n, -1, -1):
+        print(n)
+
+
+
+
 
 
 
@@ -213,7 +237,7 @@ def main():
         elif choix == "9":
             exercice9()
         elif choix == "10":
-            exercice10()
+            exercice10()  
         elif choix == "11":
             exercice11()
         elif choix == "12":
