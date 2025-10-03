@@ -102,6 +102,16 @@ def exercice20():
     nom =(input("votre nom: "))
     age =(input("votre age: "))
     print(nom," a ",age,"ans",)
+
+def exercice21():
+    print("Exercice 20 : Négatif/Positif/Nul")
+    chiffre =int(input("votre chiffre: "))
+    if chiffre == 0 :
+        print("nul")
+    elif chiffre < 0 :
+        print("négatif")
+    elif chiffre > 0 :
+        print("positif")
     
 
 
@@ -160,6 +170,46 @@ def main():
             exercice19()
         elif choix == "20":
             exercice20()
+        elif choix == "21":
+            exercice21()
+        elif choix == "22":
+            exercice22()
+        elif choix == "23":
+            exercice23()
+        elif choix == "24":
+            exercice24()
+        elif choix == "25":
+            exercice25()
+        elif choix =="26":
+            exercice26()
+        elif choix == "27":
+            exercice27()
+        elif choix == "28":
+            exercice28()
+        elif choix == "29":
+            exercice29()
+        elif choix == "30":
+            exercice30()
+        elif choix == "31":
+            exercice31()
+        elif choix == "32":
+            exercice32()
+        elif choix == "33":
+            exercice33()
+        elif choix == "34":
+            exercice34()
+        elif choix == "35":
+            exercice35()
+        elif choix == "36":
+            exercice36()
+        elif choix == "37":
+            exercice37()
+        elif choix == "38":
+            exercice38()
+        elif choix == "39":
+            exercice39()
+        elif choix == "40":
+            exercice40()
         elif choix == "q":
             print("Au revoir 👋")
             break
