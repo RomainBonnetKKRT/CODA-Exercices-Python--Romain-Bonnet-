@@ -142,6 +142,16 @@ def exercice25():
     elif nombre<number:
        print(f"{nombre} et {number} sont croissant")
 
+def exercice26():
+    nombre=int(input("Inserez un nombre "))
+    diviseur=int(5)
+    last_digit = nombre % 10
+    if last_digit == 0 or last_digit == 5:
+        print(f"{nombre} est un divisible de 5")
+    elif last_digit != 0 or last_digit != 5:
+        print(f"{nombre} est non divisible par 5")
+
+
     
 
 
