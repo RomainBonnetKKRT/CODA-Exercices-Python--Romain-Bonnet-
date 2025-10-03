@@ -151,6 +151,17 @@ def exercice26():
     elif last_digit != 0 or last_digit != 5:
         print(f"{nombre} est non divisible par 5")
 
+def exercice27():
+    âge=int(input("Inserez votre âge "))
+    if âge<12:
+        print("Enfant")
+    elif âge>18:
+        print("Adulte")
+    elif 12 <= âge <= 17:
+        print("Adolescent")
+
+
+
 
     
 
