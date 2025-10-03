@@ -82,6 +82,18 @@ def exercice16():
     longueur_coté = int(input("longueur du coté: "))
     print("l'air du carré est ",longueur_coté * longueur_coté,)
 
+def exercice17():
+    print("Exercice 17 : conversion euro dollars")
+    nombre_euro = int(input("nombre euro: "))
+    print("La valeur en dollars est de",nombre_euro * 1.1,)
+
+def exercice18():
+    print("Exercice 18 : conversion minutes secondes")
+    nombre_minutes = int(input("nombre minutes: "))
+    print("Le temps en seconde est de",nombre_minutes * 60,)
+
+
+
         
 
     
