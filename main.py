@@ -92,6 +92,11 @@ def exercice18():
     nombre_minutes = int(input("nombre minutes: "))
     print("Le temps en seconde est de",nombre_minutes * 60,)
 
+def exercice19():
+    print("Exercice 19 : Prix TTC")
+    Prix = int(input("PrixHT: "))
+    print("Le TTC est de",Prix * 1.2,)
+
 
 
         
