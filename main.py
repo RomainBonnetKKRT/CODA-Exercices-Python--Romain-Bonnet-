@@ -112,6 +112,12 @@ def exercice21():
         print("négatif")
     elif chiffre > 0 :
         print("positif")
+def exercice22():
+    nombre =int(input("entrer l'age "))
+    if nombre >= 18 :
+        print("majeur")
+    else:
+        print("mineur")
     
 
 
