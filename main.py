@@ -134,6 +134,14 @@ def exercice24():
     elif nombre<number:
        print(f"{number} est plus grand que {nombre}")
 
+def exercice25():
+    nombre=int(input("Inserez un nombre "))
+    number=int(input("Inserez un nombre "))
+    if nombre>number:
+       print(f"{nombre} et {number} ne sont pas croissant")
+    elif nombre<number:
+       print(f"{nombre} et {number} sont croissant")
+
     
 
 
